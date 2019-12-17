@@ -8,6 +8,13 @@ public class HelloWorld {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		/*
+		 * What is this Sandwitch? this is strange...
+		*/
+		
+		// Commentaire avec une ligne
+		
 		System.out.println("Hello World !!!");
 		System.out.println("What is real?");
 		System.out.println("What is unreal?");
