@@ -18,7 +18,7 @@ public class TestClavier {
 		// TODO Auto-generated method stub
 
 		Scanner sc = new Scanner (System.in);
-		System.out.println ("Veuillez saisir un mot :");
+		System.out.println ("Veuillez saisir... quelque chose :");
 		String str = sc.nextLine();
 		System.out.println("vous avez saisi : " + str);
 		
