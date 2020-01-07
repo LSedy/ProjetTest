@@ -23,18 +23,25 @@ public class MethodTest {
 		int nb4 = 4;
 		int s2 = MethodTest.somme(nb3,nb4);
 		System.out.println(s2);
+		
+		
+		
 	}
 		
 	public static int somme (int alpha, int beta) {
+		alpha = 11;
+		beta = 6;		
 		int s = alpha + beta;
 		return s;
 		
-	
-		public static int calculPeriRect (int delta, int epsilon)
-		int delta = 11;
-		int epsilon = 6;
-		int peri
-
+	}
+		
+		public static int calculperirect (int delta, int epsilon) {
+		delta = 11;
+		epsilon = 6;
+		int peri = MethodTest.somme(delta,epsilon);
+		return peri;
+		
 	}
 
 }
