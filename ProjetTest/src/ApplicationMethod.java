@@ -6,5 +6,9 @@ public class ApplicationMethod {
 		int nb2 = 7;
 		int s1 = Utils.somme(nb1, nb2) * 2;
 		System.out.println(s1);
+	
+		int difference = MethodMaths.comtuveu(nb1, nb2);
+		System.out.println(difference);
+
 	}
 }
