@@ -22,7 +22,7 @@ public class LectureClavierTest {
 		System.out.println ("Veuillez saisir un mot :");
 		String str = sc.nextLine();
 		System.out.println("vous avez saisi : " + str);
-		
+		sc.close();
 	}
 
 }

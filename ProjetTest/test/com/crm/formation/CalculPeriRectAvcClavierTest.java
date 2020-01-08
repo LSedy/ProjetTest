@@ -1,4 +1,7 @@
+package com.crm.formation;
 import java.util.Scanner;
+
+import com.crm.api.Utils;
 
 /**
  * 
@@ -21,8 +24,9 @@ public class CalculPeriRectAvcClavierTest {
 		int longueur = canon.nextInt();
 		System.out.println ("Veuillez saisir une valeur pour la largeur :");
 		int largeur = canon.nextInt();
-		int perimetre ;
-		perimetre = ( longueur + largeur ) * 2 ;
+//		int perimetre ;
+//		 perimetre = ( longueur + largeur ) * 2 ;
+		int perimetre = Utils.somme(longueur,largeur) * 2;
 		System.out.println("le périmetre  du rectangle est de " + perimetre);
 		canon.close();
 		

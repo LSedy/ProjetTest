@@ -2,7 +2,7 @@
  * 
  */
 package com.crm.formation;
-
+import com.crm.formation.*;
 /**
  * @author CRM
  *
@@ -22,12 +22,14 @@ public class MethodTest {
 		int nb3 = 7;
 		int nb4 = 4;
 		int s2 = MethodTest.somme(nb3,nb4);
-		System.out.println(s2);
-		
-		
+		System.out.println(s2);	
 		
 	}
-		
+	
+	
+	
+	
+	
 	public static int somme (int alpha, int beta) {
 		alpha = 11;
 		beta = 6;		
@@ -36,10 +38,10 @@ public class MethodTest {
 		
 	}
 		
-		public static int calculperirect (int delta, int epsilon) {
+		public static float calculperirect (float delta, float epsilon) {
 		delta = 11;
 		epsilon = 6;
-		int peri = MethodTest.somme(delta,epsilon);
+		float peri = ( delta + epsilon ) * 2 ;
 		return peri;
 		
 	}
