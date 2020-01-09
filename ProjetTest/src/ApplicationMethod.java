@@ -27,11 +27,25 @@ public class ApplicationMethod {
 	int bet = 9;
 	int maxNombr = Math.max(alp, bet);
 	System.out.println(maxNombr);
+	System.out.println("l'air du cercle est de " + cerclus(11) + "cm");
 	
-	double rho = Math.PI;
+	//	double rho = Math.PI;
 	
-	final double MON_PI = Math.PI;
+	//	final double MON_PI = Math.PI;
 	
+	System.out.println("l'air du cercle est de " + cerclus(11) + "cm");
 	}
 
+	private static String cerclus(int i) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public static double cerclus (double ray) {
+        return Math.PI * (ray * ray);
+
+} 
+public
+		
+	
 }

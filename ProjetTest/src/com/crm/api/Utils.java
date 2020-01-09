@@ -10,6 +10,10 @@ package com.crm.api;
 public class Utils {
 	public static final String COULEUR_BLEU = "Hastur";
 	
+	public static final float PI = 3.14F;
+	
+	float pi = (float) java.lang.Math.PI;
+	
 /*	private static String ;
 
 	public static int somme(int a, int b) {
@@ -24,8 +28,17 @@ public class Utils {
 		return air;
 	}
 
+	public static double cerclus (double ray) {
+	        return Math.PI * (ray * ray);
+
+	}    
+		
+
+//	|||||||||||||||||||||||||||||||||||||
+	
 	public static void affichMess(String texte) {
 		System.out.println(texte);
+		System.out.println("l'air du cercle est de " + cerclus(11) + "cm");
 	}
 /*	
 	//Declaration, d'une constante, PI!
@@ -42,11 +55,8 @@ public class Utils {
 		float air = (ray * ray) * 3.14159265359F;
 		return air; 
 */		
-	public static final float PI = 3.14F;
+
 	
-	float pi = (float) java.lang.Math.PI;
 	
-			
 	
 }
-	
