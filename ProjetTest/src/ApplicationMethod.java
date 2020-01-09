@@ -17,6 +17,8 @@ public class ApplicationMethod {
 		float air = Utils.aircercl(rayon);
 		System.out.println(air);
 		
+		float pi = (float) java.lang.Math.PI;
+		
 */		
 //final (countdown) couleurs
 		System.out.println("le ciel est d'une couleur similaire à " + Utils.COULEUR_BLEU + ", le Roi en Jaune. Pâle, cramoisi, malaisante... il n'est pas bleu, helas!");
@@ -25,7 +27,11 @@ public class ApplicationMethod {
 	int bet = 9;
 	int maxNombr = Math.max(alp, bet);
 	System.out.println(maxNombr);
-		
+	
+	double rho = Math.PI;
+	
+	final double MON_PI = Math.PI;
+	
 	}
 
 }

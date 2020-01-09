@@ -42,7 +42,10 @@ public class Utils {
 		float air = (ray * ray) * 3.14159265359F;
 		return air; 
 */		
-
+	public static final float PI = 3.14F;
+	
+	float pi = (float) java.lang.Math.PI;
+	
 			
 	
 }
