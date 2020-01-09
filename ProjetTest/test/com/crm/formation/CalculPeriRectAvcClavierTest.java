@@ -26,8 +26,8 @@ public class CalculPeriRectAvcClavierTest {
 		int largeur = canon.nextInt();
 //		int perimetre ;
 //		 perimetre = ( longueur + largeur ) * 2 ;
-		int perimetre = Utils.somme(longueur,largeur) * 2;
-		System.out.println("le périmetre  du rectangle est de " + perimetre);
+//		int perimetre = Utils.somme(longueur,largeur) * 2;
+//		System.out.println("le périmetre  du rectangle est de " + perimetre);
 		canon.close();
 		
 		

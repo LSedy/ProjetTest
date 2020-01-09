@@ -1,6 +1,5 @@
-/**
- * Exercices d'algorithme
- */
+//Algorythmnie exercices are destined to  be here. I need to replace all of them in this location.
+
 /**
  * @author CRM
  *
