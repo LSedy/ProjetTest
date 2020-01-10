@@ -38,7 +38,7 @@ public class Utils {
 	
 	public static void affichMess(String texte) {
 		System.out.println(texte);
-		System.out.println("l'air du cercle est de " + cerclus(11) + "cm");
+		
 	}
 /*	
 	//Declaration, d'une constante, PI!
@@ -56,6 +56,7 @@ public class Utils {
 		return air; 
 */		
 
+	
 	
 	
 	
