@@ -51,7 +51,12 @@ public class StringTest {
 		String str5 = str1.substring(0,4);
 		System.out.println(str5);
 		
-		
+		//Comparaison de chaines
+		String chaine1 = "test";
+		String chaine2 = "test1";
+		System.out.println(chaine1.contentEquals(chaine2));
+		System.out.println(chaine1.equals(chaine2));
+		System.out.println(chaine1.equalsIgnoreCase(chaine2));
 		}
 
 }
