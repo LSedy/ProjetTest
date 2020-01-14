@@ -15,7 +15,7 @@ public class ResultatExamen {
 		System.out.println(nombre);
 		
 		System.out.println("Bien. Veuillez nous indiquez votre note d'évaluation, élève n°" + id);
-		result = log.nextLine();
+		result = log.nextLine(system.in);
 		
 	}
 
