@@ -17,11 +17,11 @@ public class TestClavier {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Scanner sc = new Scanner (System.in);
-		System.out.println ("Veuillez saisir... quelque chose :");
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Veuillez saisir... quelque chose :");
 		String str = sc.nextLine();
 		System.out.println("vous avez saisi : " + str);
-		
+		sc.close();
 	}
 
 }
