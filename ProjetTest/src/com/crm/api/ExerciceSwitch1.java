@@ -1,4 +1,4 @@
-package com.crm.formation;
+package com.crm.api;
 
 import java.util.Scanner;
 

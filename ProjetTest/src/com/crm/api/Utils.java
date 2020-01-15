@@ -40,7 +40,7 @@ public class Utils {
 	}
 
 	public static float faceCercl(int ray) {
-		final float PI = 3.14F;
+//		final float PI = 3.14F;
 
 		float air = (ray * ray) * 3.14159265359F;
 		return air;

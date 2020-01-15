@@ -1,4 +1,4 @@
-package com.crm.formation;
+package com.crm.api;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class ExerciceSwitch2 {
 		final String R = "Réorientation";
 		final String E = "Reflexion";
 		
-		
+		System.out.println("Choisissez votre destin; - Concepteur - Développeur - Réorientation - Reflexion -");
 		final String choix = scan.next();
 		switch (choix) {
 		case C:
