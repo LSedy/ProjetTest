@@ -22,7 +22,7 @@ public class BoucleForTest {
 		// Boucle For instruction continue
 //		for (int x = -5; x <= 5; x++) {
 //			if (x == 0) {
-//				System.out.println("division par zéro");
+//				System.out.println("division par zero");
 //				continue;
 //			}
 //			System.out.println(1.0 / x);
