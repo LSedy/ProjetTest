@@ -11,12 +11,21 @@ public class BoucleForTest {
 //		}
 
 		// boucle For instruction Break test
-		for (int x = -10; x <= 5; x++) {
+//		for (int x = -10; x <= 5; x++) {
+//			if (x == 0) {
+//				System.out.println("division par zéro");
+//				break;
+//			}
+//			System.out.println(2.0 / x);
+//		}
+
+		// Boucle For instruction continue
+		for (int x = -5; x <= 5; x++) {
 			if (x == 0) {
 				System.out.println("division par zéro");
-				break;
+				continue;
 			}
-			System.out.println(2.0 / x);
+			System.out.println(1.0 / x);
 		}
 
 	}
