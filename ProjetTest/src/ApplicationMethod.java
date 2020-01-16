@@ -7,13 +7,13 @@ public class ApplicationMethod {
 		  int nb1 = 13; int nb2 = 7; int s1 = Utils.somme(nb1, nb2) * 2;
 		  System.out.println(s1); 				//soustraction
 		  MethodMaths.comtuveu(nb1, nb2); 
-		  System.out.println(Utils.cerclus(ray));				 
+//		  System.out.println(Utils.cerclus(ray));				 
 		  Utils.affichMess("cogito ergo sum"); 	//afficher un message
 		  int rayon =9; 
 		  float air = Utils.aircercl(rayon); 	//aire d'un cercle 
 		  System.out.println(air);
 		  
-		  float pi = (float) java.lang.Math.PI;
+//		  float pi = (float) java.lang.Math.PI;
 		 
 //final (countdown) couleurs
 //		System.out.println("le ciel aujourd'hui semble tel une " + Utils.COULEUR_ROUGE
@@ -31,8 +31,8 @@ public class ApplicationMethod {
 //		
 //		System.out.println("l'air du cercle est de " + Utils.cerclus(ray) + "cm");
 
-		String result1 = Utils.myMethod("coucou");
-		String result2 = Utils.myMethod("ça va ?");
+//		String result1 = Utils.myMethod("coucou");
+//		String result2 = Utils.myMethod("ça va ?");
 
 	}
 

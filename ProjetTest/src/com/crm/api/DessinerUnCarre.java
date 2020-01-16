@@ -7,9 +7,6 @@ public class DessinerUnCarre {
 
 	public static void main(String[] args) {
 		// Dessiner un carre
-		
-	
-		}
-	}
 
+	}
 }
