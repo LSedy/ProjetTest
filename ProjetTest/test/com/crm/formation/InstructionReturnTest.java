@@ -3,8 +3,10 @@ package com.crm.formation;
 public class InstructionReturnTest {
 
 	public static void main(String[] args) {
+		System.out.println("Début méthode main");
 		int nombre = 10;
 		afficherListeNombre(nombre);
+		System.out.println("Fin méthode main");
 	}
 
 	public static void afficherListeNombre(int nb) {
