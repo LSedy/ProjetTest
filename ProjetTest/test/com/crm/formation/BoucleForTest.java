@@ -20,10 +20,18 @@ public class BoucleForTest {
 //		}
 
 		// Boucle For instruction continue
+//		for (int x = -5; x <= 5; x++) {
+//			if (x == 0) {
+//				System.out.println("division par zéro");
+//				continue;
+//			}
+//			System.out.println(1.0 / x);
+//		}
+
 		for (int x = -5; x <= 5; x++) {
 			if (x == 0) {
 				System.out.println("division par zéro");
-				continue;
+				return;
 			}
 			System.out.println(1.0 / x);
 		}
