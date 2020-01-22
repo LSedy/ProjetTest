@@ -53,7 +53,7 @@ public class StringTest {
 		
 		//Comparaison de chaines
 		String chaine1 = "test";
-		String chaine2 = "test1";
+		String chaine2 = "test";
 		System.out.println(chaine1.contentEquals(chaine2));
 		System.out.println(chaine1.equals(chaine2));
 		System.out.println(chaine1.equalsIgnoreCase(chaine2));
