@@ -5,10 +5,9 @@ import java.util.Scanner;
 /**
  *
  */
-
 /**
  * *
- * *@Author CRM
+ * *@Author Laurent
  * */
 public class StringTest {
 
@@ -58,5 +57,5 @@ public class StringTest {
 		System.out.println(chaine1.equals(chaine2));
 		System.out.println(chaine1.equalsIgnoreCase(chaine2));
 		}
-
+	
 }
