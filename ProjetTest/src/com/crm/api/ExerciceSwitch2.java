@@ -32,3 +32,4 @@ public class ExerciceSwitch2 {
 		scan.close();
 	}
 }
+// i = i+2
