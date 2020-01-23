@@ -1,5 +1,5 @@
 package com.crm.formation;
-
+/*@author 5Y2 */
 public class BoucleForTest {
 
 	public static void main(String[] args) {
@@ -11,15 +11,15 @@ public class BoucleForTest {
 //		}
 
 		// boucle For instruction Break test
-//		for (int x = -10; x <= 5; x++) {
-//			if (x == 0) {
-//				System.out.println("division par zéro");
-//				break;
-//			}
-//			System.out.println(2.0 / x);
-//		}
+		for (int x = -10; x <= 5; x++) {
+			if (x == 0) {
+				System.out.println("division par zéro");
+				break;
+			}
+			System.out.println(2.0 / x);
+		}
 
-		// Boucle For instruction continue
+//		 Boucle For instruction continue
 //		for (int x = -5; x <= 5; x++) {
 //			if (x == 0) {
 //				System.out.println("division par zero");
@@ -28,13 +28,13 @@ public class BoucleForTest {
 //			System.out.println(1.0 / x);
 //		}
 
-		for (int x = -5; x <= 5; x++) {
-			if (x == 0) {
-				System.out.println("division par zéro");
-				return;
-			}
-			System.out.println(1.0 / x);
-		}
+//		for (int x = -5; x <= 5; x++) {
+//			if (x == 0) {
+//				System.out.println("division par zéro");
+//				return;
+//			}
+//			System.out.println(1.0 / x);
+//		}
 
 	}
 

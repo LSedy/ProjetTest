@@ -47,12 +47,17 @@ public class tableauChaines {
 
 			}
 			if ( textDay != tabEnScan[lang] ) { 
-					System.out.println("Mhm... ce n'est pas un jour de la semaine, je le crains, même dans l'espace lointain.");
+					System.out.println("Mhm... ce n'est pas un jour de la semaine, je le crains");
 			break;	
 		}
 		
 		System.out.println("Merci, au revoir.");
 		scan.close();
+		
+		
+			
+		}
+		
 		
 //		System.out.println("Ce n'est pas un jour de la semaine.");
 //		return;

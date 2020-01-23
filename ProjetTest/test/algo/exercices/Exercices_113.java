@@ -4,7 +4,9 @@
 package algo.exercices;
 
 /**
- * @author CRM
+ * @author 5Y2
+ * @version 1.1
+ * @return
  *
  */
 public class Exercices_113 {
