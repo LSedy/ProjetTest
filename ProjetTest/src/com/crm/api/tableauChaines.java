@@ -57,8 +57,8 @@ public class tableauChaines {
 		
 			
 		}
-		
-		
+	
+		//afficher un tableau a l'envers
 //		System.out.println("Ce n'est pas un jour de la semaine.");
 //		return;
 //		String[] engliestTabString = { "Monday", "Thursday", "Wenesday", "Tuesday", "Friday", "Saturday", "Sunday"};
@@ -68,7 +68,7 @@ public class tableauChaines {
 		
 		//final String choix = scan.next();
 		//System.out.println("Mirror Mirror on the wall, who's the fairest of them all?");
-		}
+//		}
 
 	}
 }
