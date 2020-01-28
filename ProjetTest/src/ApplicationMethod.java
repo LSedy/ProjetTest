@@ -1,7 +1,14 @@
 import com.crm.api.Utils;
 
+/**
+* @author 5Y2
+*
+*/
 public class ApplicationMethod {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		
 		  int nb1 = 13; int nb2 = 7; int s1 = Utils.somme(nb1, nb2) * 2;
