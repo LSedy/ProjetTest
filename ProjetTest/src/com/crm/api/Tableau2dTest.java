@@ -15,6 +15,7 @@ public class Tableau2dTest {
 	public static void main(String[] args) {
 		// Déclaration d'un tableau a deux dimensions
 		int[][] tab2d = new int[2][3];
+		System.out.println("Déclaration of array of two dimension, and i dislike warning so i cast it here: " + tab2d.length);
 		
 		// Décalaration avec init
 		int [][] tab2dim = { {1,3,5} , {0,2,4} };
