@@ -1,7 +1,14 @@
 package com.crm.api;
 
+/**
+ * @author 5Y2
+ *
+ */
 public class ResultatExamen {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		//  test resultat examen
 //		String result;

@@ -1,7 +1,14 @@
 package com.crm.api;
 
+/**
+ * @author 5Y2
+ *
+ */
 public class GeneratorIdentity {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		
 		System.out.println ("Enter your name");

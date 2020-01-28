@@ -2,8 +2,15 @@ package com.crm.api;
 
 import java.util.Scanner;
 
+/**
+ * @author 5Y2
+ *
+ */
 public class tableauChaines {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		//afficher un tableau en utilisant une boucle "for"
 /*		

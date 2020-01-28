@@ -2,8 +2,15 @@ package com.crm.api;
 
 import java.util.Scanner;
 
+/**
+ * @author 5Y2
+ *
+ */
 public class LoginForm1 {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// test login/mdp simple
 		// (logid.equals"CRM"

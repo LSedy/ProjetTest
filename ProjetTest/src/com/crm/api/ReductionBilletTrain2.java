@@ -2,8 +2,15 @@ package com.crm.api;
 
 import java.util.Scanner;
 
+/**
+ * @author 5Y2
+ *
+ */
 public class ReductionBilletTrain2 {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// Reduction billet de train avec if else (non-imbriqué)
 	
