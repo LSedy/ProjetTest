@@ -50,12 +50,12 @@ public class tableauChaines {
 		for (int lang = 0 ; lang<= tabEnScan.length ; lang++) {
 			if (textDay.equals(tabFrScan[lang])) {
 				System.out.println(tabEnScan[lang]);
-				break;
+				return;
 
 			}
 			if ( textDay != tabEnScan[lang] ) { 
 					System.out.println("Mhm... ce n'est pas un jour de la semaine, je le crains");
-			break;	
+			return;	
 		}
 		
 		System.out.println("Merci, au revoir.");

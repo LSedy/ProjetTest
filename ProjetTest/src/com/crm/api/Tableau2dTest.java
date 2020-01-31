@@ -44,7 +44,42 @@ public class Tableau2dTest {
 				System.out.println("élément [" + i + "][" + j + "] : " + tab2dim[i][j] );
 			}
 		}
-		
+		System.out.println();
+	
+		// Déclaration d'un trableau a deux dimensions (colonnes variable)
+	int[][] tab2dVar1 = new int [3][];
+	tab2dVar1[0] = new int [1];
+	tab2dVar1[1] = new int [2];
+	tab2dVar1[2] = new int [1];
+	tab2dVar1[0][0] = 1;
+	tab2dVar1[1][0] = 1;
+	tab2dVar1[1][1] = 1;
+	tab2dVar1[2][0] = 1;
+	
+	// Parcours du tableau
+	System.out.println("Parcours du tableau tab2dVar1 :");
+	
+	for (int i = 0 ; i < tab2dVar1.length ; i++) {
+		for (int j = 0 ; j <tab2dVar1[i].length ; j++) {
+			System.out.println(tab2dVar1[i][j]);
+		}
+		System.out.println(" la maladie du sommeil");
 	}
-
+	
+	// Déclaration avec init(colonnes variables) \n\n
+	int[][] tab2dVar2 = { {1,1,1} , {1,1,1,1,1,1} , {1} , {1,1,1,1,1,1,1} };
+	
+	// Parcours du tableau
+	System.out.println("Parcours du tableau tab2dVar2");
+	for (int i = 0 ; i<tab2dVar2.length ; i++) {
+		for (int j = 0 ; j<tab2dVar2[i].length ; j++) {
+			System.out.println("||" + tab2dVar2[i][j] + "||");
+		}
+		System.out.println();
+	}
+	
+	// Acceder à un mauvais indice
+	tab2dVar1[2][1] = 1;
+	
+	}
 }
