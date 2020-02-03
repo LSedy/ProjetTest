@@ -1,4 +1,5 @@
-import com.crm.api.Utils;
+package com.crm.api;
+import MethodMaths;
 
 /**
 * @author 5Y2
