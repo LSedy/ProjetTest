@@ -38,12 +38,8 @@ public class TableauTraductionFrEn {
 				if (day.equalsIgnoreCase(tabTrad2d[0][i]))
 					System.out.println(
 							"le jour choisi est " + day + " qui se traduit " + tabTrad2d[1][i] + " en anglais.");
-			} if (day.isEmpty()) {
-				System.out.println("les termes saisis sont incorrects");
-				scan.close();
-				return;
+				continue;
 			}
-	
 		} else if (lang.equalsIgnoreCase(LANGEN)) {
 			System.out.println("You're one of us! You have choose English, congrats!");
 			System.out.println("So, now what's the day do you want to translate in french?");
@@ -54,6 +50,7 @@ public class TableauTraductionFrEn {
 				if (day.equalsIgnoreCase(tabTrad2d[1][i]))
 					System.out.println(
 							"the choosen day is " + day + " who's translate in " + tabTrad2d[0][i] + " in french.");
+				continue;
 			}
 		} else 
 			System.out.println("les termes saisis sont incorrects");
