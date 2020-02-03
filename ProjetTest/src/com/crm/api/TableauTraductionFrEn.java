@@ -57,6 +57,5 @@ public class TableauTraductionFrEn {
 		
 			scan.close();
 		}
-
 	
 }

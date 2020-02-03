@@ -19,14 +19,14 @@ public class Tableau2dTraducteur {
 //		String[][] tabTrad2d = new String [3][];
 //		tabTrad2d[0] = new String ["Français"];
 //		tabTrad2d[1] = new String ["English"];
-//		tabTrad2d[2] = new String ["русский"];
+//		tabTrad2d[2] = new String ["russe qui marche pas en UTF8"];
 //		tabTrad2d[0][1] = "Lundi"
 		
 		//Declaration tableau des jours a traduire
-		String[][] tabTrad2d = { 	{"Français","English","русский"} ,
+		String[][] tabTrad2d = { 	{"Français","English","inconnu"} ,
 									{"Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi","Dimanche"} ,
 									{"Monday","Thursday","Wenesday","Tuesday","Friday","Saturday","Sunday"} ,
-									{"понедельник","вторник","среда","четверг","пятница","суббота","воскресенье"}
+									{"un","deux","trois","quatre","cinq","six","sept"}
 								};
 		String lang;
 		String day;
