@@ -52,7 +52,7 @@ public class CorrectTradBilingFrEn {
 						// Le mot existe dans le dictionnaire
 						// Je peux utiliser l'indice i pour trouver le mot en francais
 						// dans le 1er sous tableau(liste des jours en francais)
-						System.out.println("La traduction est : " + dico[0][i]);
+						System.out.println("the translation is : " + dico[0][i]);
 						break;
 					}
 				}

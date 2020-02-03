@@ -18,14 +18,6 @@ public class HelloWorld {
 		
 		
 		System.out.println("Hello World !!!");
-		System.out.println("What is real?");
-		System.out.println("What is unreal?");
-		System.out.println("aaaaah");
-		System.out.println("never again");
-		System.out.print("Hello World !!!");
-		System.out.print("What is real?");
-		System.out.print("What is unreal?");
-		System.out.print("aaaaah");
-		System.out.print("never again");
+
 	}
 }
