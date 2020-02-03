@@ -3,7 +3,7 @@
  */
 package com.crm.api;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 /**
  * @author 5Y2
@@ -22,6 +22,11 @@ public class Tableau2dTraducteur {
 //		tabTrad2d[2] = new String ["russe qui marche pas en UTF8"];
 //		tabTrad2d[0][1] = "Lundi"
 		
+/*		
+		final String FR = "Francais";
+		final String EN = "English";
+		final String IN = "Inconnu";
+		
 		//Declaration tableau des jours a traduire
 		String[][] tabTrad2d = { 	{"Français","English","inconnu"} ,
 									{"Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi","Dimanche"} ,
@@ -38,8 +43,11 @@ public class Tableau2dTraducteur {
 			for (int i = 0 ; i<tabTrad2d.length ; i++) {
 				//choix de la langue + choix du jour
 				if (lang.equals(tabTrad2d[0][1])) {
-					
-				
+					for (i = 0 ; i<tabTrad2d.length ; i++ ) {
+						
+					}
+						System.out.println("Incorrect. Over. Done. Erase Data.");
+						scan.close();
 				}
 				if (lang.equals(tabTrad2d[0][2])) {
 					
@@ -62,6 +70,7 @@ public class Tableau2dTraducteur {
 //					System.out.println();
 //				}
 			scan.close();
+*/
 			}
 		
 		
