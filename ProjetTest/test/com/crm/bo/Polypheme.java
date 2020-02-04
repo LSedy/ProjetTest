@@ -29,6 +29,16 @@ public class Polypheme {
 	}
 	
 	/**
+	 * Cette methode renvoie la valeur de l'atttribut prenom
+	 * @return prenom
+	 */
+	
+	public String getPrenom() {
+		return prenom;
+	}
+	
+	
+	/**
 	 * Methode qui modifie la valeur de l'attribut nom
 	 * 
 	 * @param n nouveau nom
@@ -36,4 +46,19 @@ public class Polypheme {
 	public void setNom(String n) {
 		nom = n;
 		}
+
+	/**
+	 *  Methode qui modifie la valeur de l'attribut prenom
+	 * @param p
+	 */
+	public void setPrenom(String p) {
+		prenom = p;
+	}
+	
+	/**
+	 *  Methode qui affiche un message
+	 */
+	public void afficherDetails() {
+		System.out.println("Vous êtes " + nom + " "+ prenom + " " + surnom);
+	}
 }
