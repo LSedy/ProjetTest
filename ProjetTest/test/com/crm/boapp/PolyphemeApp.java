@@ -15,7 +15,7 @@ public class PolyphemeApp {
 		poly.surnom = "Joe";
 		poly.setNom("Cabal");
 		
-		System.out.println("bienvenue" + poly.getNom() + " (" + poly.surnom + ")");
+		System.out.println("bienvenue " + poly.getNom() + " (" + poly.surnom + ")");
 
 	}
 
