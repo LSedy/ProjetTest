@@ -15,25 +15,24 @@ public class PolyphemeApp2 {
 	public static void main(String[] args) {
 		Polypheme poly = new Polypheme();
 		Scanner scan = new Scanner(System.in);
-		String name;
-		String lastname;
-		String nickname;
-		poly.setNom(name);
-		poly.setPrenom(lastname);
-		poly.surnom;
 		
-		
+		//insertion du prenom
 		System.out.println("quel est votre prénom?");
-		scan.nextLine(scanNom);
-		System.out.println();
+		poly.setPrenom(scan.nextLine());
+		System.out.println(poly.getPrenom());
 		
+		//insertion du nom
 		System.out.println("Quel est votre nom?");
-		System.out.println(scan);
+		poly.setNom(scan.nextLine());
+		System.out.println(poly.getNom());
 		
+		//insertion du surnom
 		System.out.println("Quel est votre surnom?");
-		System.out.println(scan);
+		poly.surnom = scan.nextLine();
+		System.out.println(poly.surnom);
 		
-		System.out.println("Vous êtes " + poly.getNom() + " " + poly.getPrenom() + " (" + poly.surnom + ")");
+		// insertion du nom + prenom + surnom dans une phrase
+		System.out.println("Vous êtes " + poly.getPrenom() + " " + poly.getNom() + " (" + poly.surnom + ")");
 		scan.close();
 	}
 

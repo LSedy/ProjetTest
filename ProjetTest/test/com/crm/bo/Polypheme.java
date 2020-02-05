@@ -5,6 +5,7 @@ package com.crm.bo;
 
 import java.util.Date;
 
+
 /**
  * @author 5Y2
  *
@@ -17,6 +18,9 @@ public class Polypheme {
 	private String prenom;
 	protected Date dateNaissance;
 
+
+	//Créee la Date et l'heure
+	
 	// Methodes
 	
 	/**
