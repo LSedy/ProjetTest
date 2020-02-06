@@ -100,7 +100,7 @@ public class Calculs {
 			perimetreBis = ( lonb + larb ) * 2;
 			surfaceBis = lonb * larb;
 			// Afficher message
-			System.out.println("la surface de l'autre rectangle est de " + surfaceBis + perimetreBis);
+			System.out.println("la surface de l'autre rectangle est de " + surfaceBis + " sont perimetre est de " + perimetreBis);
 		}
 		
 		public void afficherRectangleComp() {

@@ -36,6 +36,23 @@ public class Polypheme {
 	
 	// Methodes & Getter/Setter
 	
+	public void modifierPolypheme(Polypheme poly) {
+		poly.nom = poly.nom.toUpperCase();
+		poly.prenom = poly.prenom.toUpperCase();
+	}
+	
+	public int incrementeNombre(int nb) {
+		return nb++;
+	}
+	
+	public boolean isEquals(Polypheme poly) {
+		if(this.prenom.equals(poly.prenom) && this.nom.equals(poly.nom)) {
+			return true;
+		}
+	
+	return false;
+}
+	
 	/**
 	 * Cette methode renvoie la valeur de l'atttribut nom
 	 * @return nom
@@ -76,6 +93,6 @@ public class Polypheme {
 	 *  Methode qui affiche un message
 	 */
 	public void afficherDetails() {
-		System.out.println("Vous êtes " + nom + " "+ prenom + " " + surnom);
+		System.out.println("Vous êtes " + prenom + " "+ nom + " " + surnom);
 	}
 }

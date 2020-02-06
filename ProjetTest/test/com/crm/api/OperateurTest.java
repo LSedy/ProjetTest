@@ -19,7 +19,7 @@ public class OperateurTest {
 		
 		int maVariableInt2;
 		maVariableInt2 = maVariableInt1;
-	//	System.out.println(maVariableInt2);
+		// System.out.println(maVariableInt2);
 		
 		int maVariableInt3;
 		maVariableInt3 = maVariableInt1 + maVariableInt2;

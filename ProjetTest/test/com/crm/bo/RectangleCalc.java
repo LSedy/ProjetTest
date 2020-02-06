@@ -14,7 +14,7 @@ public class RectangleCalc {
 		private float lon;
 		private float lar;
 		
-		// Constructeur pr défault
+		// Constructeur par défault
 		public RectangleCalc() {
 			lon = 0F;
 			lar = 0F;
