@@ -1,4 +1,4 @@
-/**
+S/**
  * 
  */
 package com.crm.bo;
@@ -8,7 +8,7 @@ package com.crm.bo;
  * @author 5Y2
  *
  */
-public class Calculs2 {
+public class Calculs {
 
 		//Attributs
 		private float lon;
