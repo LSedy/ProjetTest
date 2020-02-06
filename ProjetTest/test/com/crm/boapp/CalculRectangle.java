@@ -5,7 +5,9 @@ package com.crm.boapp;
 
 import java.util.Scanner;
 
-import com.crm.bo.RectangleCalc;
+import com.crm.bo.Calculs;
+
+
 
 /**
  * @author 5Y2
@@ -17,7 +19,7 @@ public class CalculRectangle {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		RectangleCalc calc = new RectangleCalc();
+		Calculs calc = new Calculs();
 		Scanner scan = new Scanner(System.in);
 		
 		// Demande de la longueur a l'utilisateur
