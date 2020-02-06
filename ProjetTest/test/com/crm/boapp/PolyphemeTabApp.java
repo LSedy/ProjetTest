@@ -24,7 +24,7 @@ public class PolyphemeTabApp {
 		
 		poly2.setPrenom("Stephen");
 		poly2.setNom("KING");
-		poly2.surnom = "CA";		
+		poly2.surnom = "le roi cramoisi";		
 		
 		polyTab[0] = poly1;
 		polyTab[1] = poly2;	

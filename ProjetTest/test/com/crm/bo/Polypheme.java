@@ -18,10 +18,23 @@ public class Polypheme {
 	private String prenom;
 	protected Date dateNaissance;
 
+	// Constructeurs
+	public Polypheme() {
+		nom = "";
+		prenom = "";
+		surnom = "";
+		System.out.println("Construction d'un objet Polypheme(sans param)");
+	}
+	
+	public Polypheme(String prenom, String nom) {
+		this.prenom = prenom;
+		this.nom = nom;
+	}
 
 	//Créee la Date et l'heure
 	
-	// Methodes
+	
+	// Methodes & Getter/Setter
 	
 	/**
 	 * Cette methode renvoie la valeur de l'atttribut nom
