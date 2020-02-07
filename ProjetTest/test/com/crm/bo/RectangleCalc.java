@@ -20,7 +20,7 @@ public class RectangleCalc {
 			lar = 0F;
 		}
 		
-		// Constructeur avec parametres
+		// Constructeur avec parametres (pour initialiser souvent, on donne des valeurs aux attributs. ont les valorise)
 		public RectangleCalc(float lon , float lar) {
 			this.lon = lon;
 			this.lar = lar;
