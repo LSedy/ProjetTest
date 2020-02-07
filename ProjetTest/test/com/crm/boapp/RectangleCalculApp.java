@@ -52,7 +52,7 @@ import com.crm.bo.RectangleCalc;
 				System.out.println("Les deux rectangle sont équivalent! C'est comme ca.");
 			}
 			else {
-				System.out.println("Les deux rectangles sont incompatible! C'est dramatique!");
+				System.out.println("Les deux rectangles sont incompatible! C'est incoherent!");
 			}
 			
 			//fermeture du scanner
