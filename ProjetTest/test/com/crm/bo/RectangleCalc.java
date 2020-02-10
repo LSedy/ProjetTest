@@ -59,4 +59,18 @@ public class RectangleCalc {
 			lar = la;
 		}
 		
+		// Surcharger les méthodes calculPerimetre() et calculSurface() pour qu'elles retournent une chaîne de caractères et possèdent un argument 
+					// "unité de mesure" de type String
+					// Ex : appel méthode calculPerimetre surchargée
+		
+		//(P = ( L + l) x 2 )
+		public void calculPeri() {
+			
+		}
+		// S = ( L * l )
+		public void calculSurface() {
+			
+		}
+		
+		
 }

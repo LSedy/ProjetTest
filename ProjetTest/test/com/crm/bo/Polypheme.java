@@ -95,4 +95,17 @@ public class Polypheme {
 	public void afficherDetails() {
 		System.out.println("Vous êtes " + prenom + " "+ nom + " " + surnom);
 	}
+	
+	/**
+	 * Surcharge de Polypheme
+	 * @param
+	 */
+	public void afficherDetails(String langue) {
+		if (langue.equals("Fr")) {
+			System.out.println("Bonjour, vous êtes " + prenom + " "+ nom + " " + surnom);
+		}
+		if (langue.equals("En")) {
+			System.out.println("Hello, you are " + prenom + " "+ nom + " " + surnom);
+		}
+	}
 }

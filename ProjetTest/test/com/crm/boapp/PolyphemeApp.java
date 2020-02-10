@@ -58,6 +58,10 @@ public class PolyphemeApp {
 		
 		poly4.modifierPolypheme(poly5);
 		poly5.afficherDetails();
+		
+		// afficher resultat surcharge avec deux langues
+		poly5.afficherDetails("En");
+		poly5.afficherDetails("Fr");
 	}
 	
 }

@@ -55,6 +55,10 @@ import com.crm.bo.RectangleCalc;
 				System.out.println("Les deux rectangles sont incompatible! C'est incohérent!");
 			}
 			
+			
+			
+			
+			
 			//fermeture du scanner
 			scan.close();
 			
