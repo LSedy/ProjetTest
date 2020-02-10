@@ -65,12 +65,22 @@ public class RectangleCalc {
 		
 		//(P = ( L + l) x 2 )
 		public void calculPeri() {
-			
+			return  peri = ( lon + lar ) * 2;	
 		}
 		// S = ( L * l )
-		public void calculSurface() {
-			
+		public void calculPeri(float peri) {
+			return this.calculPeri;
 		}
+		
+		
+		public void calculSurf() {
+			return surf = lon * lar;
+		}
+		
+		public void calculSurf(float surf) {
+			return 
+		}
+		
 		
 		
 }

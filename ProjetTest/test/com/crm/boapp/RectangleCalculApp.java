@@ -55,9 +55,11 @@ import com.crm.bo.RectangleCalc;
 				System.out.println("Les deux rectangles sont incompatible! C'est incohérent!");
 			}
 			
-			
-			
-			
+			// Surchage methode calcul peri
+			calc.calculPeri();
+			calc.calculSurf();
+			System.out.println("Le périmètre du rectangle est : " + calc.calculPeri(CM));
+			System.out.println("La surface du rectangle est : " + calc.calculSurf(CM));
 			
 			//fermeture du scanner
 			scan.close();
