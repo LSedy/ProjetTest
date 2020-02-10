@@ -45,14 +45,14 @@ import com.crm.bo.RectangleCalc;
 			//demande de la surface
 			System.out.println(" ");
 			float terrifiant = calc.getLon() * calc.getLar(); 
-			System.out.println("Grace a vos indications, nous pouvons prédire que la surface du rectangle est équivalente à " + terrifiant + " . C'est indecent!" );
+			System.out.println("Grace a vos indications, nous pouvons prédire que la surface du rectangle est équivalente à " + terrifiant + " . C'est indécent!" );
 			
 			//Comparaison entre deux rectangle terrible et terrifiant
 			if (terrible == terrifiant) {
 				System.out.println("Les deux rectangle sont équivalent! C'est comme ca.");
 			}
 			else {
-				System.out.println("Les deux rectangles sont incompatible! C'est incoherent!");
+				System.out.println("Les deux rectangles sont incompatible! C'est incohérent!");
 			}
 			
 			//fermeture du scanner
