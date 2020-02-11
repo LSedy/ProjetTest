@@ -56,8 +56,8 @@ import com.crm.bo.RectangleCalc;
 			}
 			
 			// Surchage methode calcul peri
-			calc.calculPeri();
-			
+			System.out.println("nous avons pu prédire que le périmètre du rectangle est: " + calc.calculPeri("km."));
+			System.out.println("nous avons pu prédire que la surface du rectangle est: " + calc.calculSurf("km²."));
 			
 			
 			//fermeture du scanner
