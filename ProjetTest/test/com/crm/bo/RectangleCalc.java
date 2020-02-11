@@ -65,7 +65,8 @@ public class RectangleCalc {
 		
 		//(P = ( L + l) x 2 )
 		public void calculPeri() {
-			return  peri = ( lon + lar ) * 2;	
+			peri = ( lon + lar ) * 2;
+			return;	
 		}
 		// S = ( L * l )
 		public void calculPeri(float peri) {
