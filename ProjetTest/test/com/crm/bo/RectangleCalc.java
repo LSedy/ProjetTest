@@ -63,23 +63,26 @@ public class RectangleCalc {
 					// "unité de mesure" de type String
 					// Ex : appel méthode calculPerimetre surchargée
 		
+		
 		//(P = ( L + l) x 2 )
 		public void calculPeri() {
-			peri = ( lon + lar ) * 2;
-			return;	
+			float peri = ( lon + lar ) * 2;
+			
 		}
 		// S = ( L * l )
 		public void calculPeri(float peri) {
-			return this.calculPeri;
+			System.out.println("Le périmètre du rectangle est: " + peri + " cm.");
+			return;
 		}
 		
 		
 		public void calculSurf() {
-			return surf = lon * lar;
+			float surf = lon * lar;
 		}
 		
 		public void calculSurf(float surf) {
-			return 
+			System.out.println("Le périmètre du rectangle est: " + surf + " cm.");
+			return;
 		}
 		
 		

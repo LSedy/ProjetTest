@@ -49,7 +49,7 @@ import com.crm.bo.RectangleCalc;
 			
 			//Comparaison entre deux rectangle terrible et terrifiant
 			if (terrible == terrifiant) {
-				System.out.println("Les deux rectangle sont équivalent! C'est comme ca.");
+				System.out.println("Les deux rectangle sont équivalent! C'est décevant.");
 			}
 			else {
 				System.out.println("Les deux rectangles sont incompatible! C'est incohérent!");
@@ -57,9 +57,8 @@ import com.crm.bo.RectangleCalc;
 			
 			// Surchage methode calcul peri
 			calc.calculPeri();
-			calc.calculSurf();
-			System.out.println("Le périmètre du rectangle est : " + calc.calculPeri());
-			System.out.println("La surface du rectangle est : " + calc.calculSurf());
+			
+			
 			
 			//fermeture du scanner
 			scan.close();
