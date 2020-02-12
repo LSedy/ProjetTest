@@ -9,25 +9,38 @@ package com.crm.bo;
  */
 public class Voiture {
 	
-	// Attributs Marque=Ferrari Couleur=GrisAnthracite nBPorte=7 BoiteManu/Auto=Auto Prix=520.000
+	// Attributs Marque=Ferrari Couleur=GrisAnthracite nBPorte=7 BoiteManu/Auto=Auto Prix=60.000
 	private String name;
+	private String marque = "Ferrari Testarossa";
+	private int nbPortes = 7;
+	//Attributs affichage
 	private String tech;
+	private boolean demarrerVoiture;
+	private boolean stopVoiture;
+	// Attributs voiture
+	private String voirVitVoiture;
+	private String speedVoiture;
+	private String slowVoiture;
 	
-	// Attributs klaxon
+
+	// Attribut klaxon
 	private String klaxon = "TUUUUUUTUUUUUUTUUUUUT!!!";
 	
 	// Attributs tableau/vitesse
-	String[] vitesse = {"50Km/h", "80Km/h", "130Km/h"};
+	String[] vitesseVoit = {"50Km/h", "80Km/h", "130Km/h"};
+	
+	//Tableau couleur / type de boite
+	String[] couleurVoit = {"incolore", "[1]-Gris Anthracite", "[2]-Rouge Pourpre"};
+	String[] boiteManuAuto = {"[1]-Manuel", "[2]-Automatique"};
 	
 	//Constructeur (défault)
 	public void CarRun() {
 		System.out.println("Voulez-vous démarer la voiture?");
 		
-		while (keyRun == true) {
-			return;
-		}
-		if (keyRun == false) {
-			return;
+		if (demarrerVoiture = true) {
+		do { 
+			
+		} while (stopVoiture = true);
 		}
 	}
 	
@@ -39,6 +52,7 @@ public class Voiture {
 		name = na;
 	}
 	
-	//Get/Set 
+	//Get/Set Caractéristiques techniques de l'automobile
+//	public String set
 	
 }
