@@ -32,13 +32,16 @@ public class VoitureApp {
 			System.out.println("Afficher les caractéristiques techniques");
 			// ces caractéristiques vous conviennent t'elle? oui recommencer
 
-			do {
-				System.out.println("Ces caractéristiques vous conviennent elle? (Y/N)");
-				scan.hasNextLine();
-			} while (reponse.equalsIgnoreCase("Y"));
+			
+			System.out.println("Ces caractéristiques vous conviennent elle? (Y/N)");
+			reponse = scan.nextLine();
+			
+			runOut.setName(scan.next());
+			System.out.println("ceci est un test");
 		} while (reponse.equalsIgnoreCase("Y"));
-
+		runOut.setName(scan.next());
+		System.out.println("Non, cela ne me va pas");
 		scan.close();
 	}
-
+	
 }
