@@ -1,5 +1,5 @@
 package com.crm.api;
-import MethodMaths;
+//import MethodMaths;
 
 /**
 * @author 5Y2
@@ -14,7 +14,7 @@ public class ApplicationMethod {
 		
 		  int nb1 = 13; int nb2 = 7; int s1 = Utils.somme(nb1, nb2) * 2;
 		  System.out.println(s1); 				//soustraction
-		  MethodMaths.comtuveu(nb1, nb2); 
+//		  MethodMaths.comtuveu(nb1, nb2); 
 //		  System.out.println(Utils.cerclus(ray));				 
 		  Utils.affichMess("cogito ergo sum"); 	//afficher un message
 		  int rayon =9; 
